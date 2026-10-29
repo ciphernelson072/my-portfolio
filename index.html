@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Obicho Nelson — IT Support & Software Developer. Building reliable web applications, supporting computer systems, and solving real-world IT problems.">
+  <meta name="author" content="Obicho Nelson">
+  <meta name="theme-color" content="#0a0f1a">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Obicho Nelson | IT Support & Software Developer">
+  <meta property="og:description" content="I build reliable web applications, support computer systems, and work with modern technologies to solve real-world IT problems.">
+  <meta property="og:image" content="obicho-nelson-portrait.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Obicho Nelson | IT Support & Software Developer">
+  <meta name="twitter:description" content="IT Support & Software Developer — web apps, systems, and practical problem-solving.">
+  <title>Obicho Nelson | IT Support & Software Developer</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23060a12'/><text x='50' y='68' font-size='48' text-anchor='middle' fill='%234ecdc4' font-family='system-ui' font-weight='700'>ON</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    try {
+      document.documentElement.dataset.theme = localStorage.getItem('obicho-theme') || 'dark';
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="page-bg" aria-hidden="true">
+    <div class="bg-nature"></div>
+    <div class="bg-overlay"></div>
+  </div>
+
+  <div class="smoke-layer" aria-hidden="true">
+    <div class="smoke smoke-1"></div>
+    <div class="smoke smoke-2"></div>
+    <div class="smoke smoke-3"></div>
+    <div class="smoke smoke-4"></div>
+  </div>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ========== SIDEBAR ========== -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-top">
+      <a class="identity" href="#home">
+        <div class="avatar-wrap">
+          <img src="obicho-nelson-portrait.png" alt="Obicho Nelson" width="72" height="72">
+        </div>
+        <div class="identity-text">
+          <strong>OBICHO NELSON</strong>
+          <span>IT Support &amp; Software Developer</span>
+        </div>
+      </a>
+
+      <div class="availability">
+        <span class="avail-dot"></span>
+        Open to opportunities
+      </div>
+
+      <div class="social-row">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:your.email@example.com" aria-label="Email" title="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <nav class="side-nav" aria-label="Main">
+      <a class="nav-link active" href="#home">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+        Home
+      </a>
+      <a class="nav-link" href="#about">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 4-6 8-6s8 2 8 6"/></svg></span>
+        About
+      </a>
+      <a class="nav-link" href="#experience">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg></span>
+        Experience
+      </a>
+      <a class="nav-link" href="#skills">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></span>
+        Skills
+      </a>
+      <a class="nav-link" href="#projects">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></span>
+        Projects
+      </a>
+      <a class="nav-link" href="#services">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span>
+        Services
+      </a>
+      <a class="nav-link" href="#support">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg></span>
+        IT Support
+      </a>
+      <a class="nav-link" href="#achievements">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.5 14.5L17 22l-5-2-5 2 1.5-7.5"/></svg></span>
+        Achievements
+      </a>
+      <a class="nav-link" href="#testimonials">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
+        Testimonials
+      </a>
+      <a class="nav-link" href="#contact">
+        <span class="nav-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
+        Contact
+      </a>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <a class="cv-btn" href="#contact" download>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode">
+        <span class="toggle-track"><span class="toggle-thumb"></span></span>
+        <span class="theme-label">Dark Mode</span>
+      </button>
+      <p class="sidebar-quote">“Code like a developer,<br>Solve like a technician,<br>Build for the future.”</p>
+    </div>
+  </aside>
+
+  <button class="mobile-menu" id="mobileMenu" type="button" aria-expanded="false" aria-controls="sidebar" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
+
+  <main id="main">
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="hero-portrait-wrap">
+        <img class="hero-portrait" src="obicho-nelson-portrait.png" alt="Obicho Nelson seated at desk">
+        <div class="tech-badge badge-java" style="--delay:0s"><span class="badge-icon java">Java</span></div>
+        <div class="tech-badge badge-php" style="--delay:.4s"><span class="badge-icon php">php</span></div>
+        <div class="tech-badge badge-db" style="--delay:.8s"><span class="badge-icon db">Database</span></div>
+        <div class="tech-badge badge-html" style="--delay:1.2s"><span class="badge-icon html">HTML</span></div>
+        <div class="tech-badge badge-css" style="--delay:1.6s"><span class="badge-icon css">CSS</span></div>
+        <div class="tech-badge badge-js" style="--delay:2s"><span class="badge-icon js">JS</span></div>
+      </div>
+
+      <div class="hero-content">
+        <p class="hero-hello">Hello, I’m</p>
+        <h1 class="hero-name">
+          <span class="name-gradient">OBICHO</span><br>
+          <span class="name-gradient">NELSON</span>
+        </h1>
+        <p class="hero-role">IT Support &amp; Software Developer</p>
+        <p class="hero-desc">
+          I build reliable web applications, support computer systems, and work with modern technologies to solve real-world IT problems — bridging development and hands-on technical support.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View My Projects <span>→</span></a>
+          <a class="btn btn-ghost" href="#contact">Contact Me</a>
+        </div>
+        <div class="learning-strip">
+          <span class="learning-label">Currently learning</span>
+          <span class="learning-tags">
+            <span>React</span><span>Linux Admin</span><span>Cloud Basics</span>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section glass-section" id="about">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">01 — About</span>
+          <h2>Professional bio</h2>
+        </div>
+
+        <div class="bio-block glass-card">
+          <p class="bio-lead">
+            I’m <strong>Obicho Nelson</strong>, an IT Support &amp; Software Developer focused on building practical digital solutions and keeping systems running smoothly. I combine software development skills with hands-on technical support — so I don’t just write code; I also understand the hardware, networks, and users that depend on it.
+          </p>
+          <p>
+            My work includes full-stack web applications (PHP, MySQL, HTML, CSS, JavaScript) and desktop-oriented systems in Java. I enjoy turning real problems into working tools: appointment booking, data management, reporting, and day-to-day IT reliability. I’m methodical when diagnosing issues, clear when explaining solutions to non-technical people, and committed to continuous learning.
+          </p>
+          <p>
+            I’m currently open to junior developer roles, IT support positions, internships, and freelance projects where I can contribute, grow, and deliver value from day one.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="glass-card about-card">
+            <div class="card-icon">💻</div>
+            <h3>Software Development</h3>
+            <p>I design and build practical web applications with PHP, Java, HTML, CSS, and JavaScript — focusing on clean structure, usability, and real business needs rather than complexity for its own sake.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="card-icon">🛠️</div>
+            <h3>IT Support</h3>
+            <p>From hardware troubleshooting and OS setup to networking basics and user onboarding, I help keep systems reliable and people productive with clear, patient support.</p>
+          </div>
+          <div class="glass-card about-card">
+            <div class="card-icon">📈</div>
+            <h3>Continuous Learning</h3>
+            <p>Technology moves fast. I stay curious, document what I learn, experiment with new tools, and use AI as a coding partner to accelerate growth without cutting corners on understanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section class="section glass-section" id="experience">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">02 — Experience &amp; Education</span>
+          <h2>Path &amp; background</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="glass-card timeline-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <span class="tl-date">2023 — Present</span>
+              <h3>Software Developer &amp; IT Support</h3>
+              <p class="tl-org">Independent / Project-based</p>
+              <ul>
+                <li>Designed and built a full-stack Doctor Appointment System (PHP, MySQL) with patient registration, scheduling, and admin dashboard.</li>
+                <li>Developed a Java-based Management Information System for structured data handling, reporting, and decision support.</li>
+                <li>Provided IT support: hardware diagnostics, software installation, basic networking, and end-user guidance.</li>
+                <li>Documented solutions and improved systems based on real usage feedback.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="glass-card timeline-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <span class="tl-date">Ongoing</span>
+              <h3>IT &amp; Software Studies</h3>
+              <p class="tl-org">Formal education &amp; self-directed learning</p>
+              <ul>
+                <li>Core focus: web development, databases, programming (Java, PHP), and IT foundations.</li>
+                <li>Self-study and practical projects in networking, system administration basics, and modern web practices.</li>
+                <li>Active use of Git, VS Code, local stacks (XAMPP/Laragon), and AI-assisted development workflows.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="glass-card timeline-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <span class="tl-date">Continuous</span>
+              <h3>Professional development</h3>
+              <p class="tl-org">Courses, practice &amp; community</p>
+              <ul>
+                <li>Hands-on practice with HTML5, CSS3, JavaScript, PHP, Java, and SQL.</li>
+                <li>Exploring React, Linux administration, and cloud fundamentals to expand the toolkit.</li>
+                <li>Building a public portfolio and GitHub presence to share work and learn in the open.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section glass-section" id="skills">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">03 — Skills</span>
+          <h2>Technologies &amp; toolkit</h2>
+          <p class="section-sub">Honest levels based on real project use. I prefer accuracy over exaggeration.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="glass-card skill-group">
+            <h3><span class="skill-dot cyan"></span> Web Development</h3>
+            <div class="skill-list">
+              <div class="skill-row"><span>HTML5</span><span class="level level-strong">Strong</span></div>
+              <div class="skill-row"><span>CSS3 / Responsive</span><span class="level level-strong">Strong</span></div>
+              <div class="skill-row"><span>JavaScript</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>PHP</span><span class="level level-strong">Strong</span></div>
+            </div>
+          </div>
+
+          <div class="glass-card skill-group">
+            <h3><span class="skill-dot violet"></span> Programming &amp; Data</h3>
+            <div class="skill-list">
+              <div class="skill-row"><span>Java</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>MySQL / SQL</span><span class="level level-strong">Strong</span></div>
+              <div class="skill-row"><span>Database design</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>CRUD systems</span><span class="level level-strong">Strong</span></div>
+            </div>
+          </div>
+
+          <div class="glass-card skill-group">
+            <h3><span class="skill-dot mint"></span> IT Support</h3>
+            <div class="skill-list">
+              <div class="skill-row"><span>Hardware troubleshooting</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>Networking basics</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>OS setup &amp; maintenance</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>End-user support</span><span class="level level-strong">Strong</span></div>
+            </div>
+          </div>
+
+          <div class="glass-card skill-group">
+            <h3><span class="skill-dot gold"></span> Tools &amp; Practices</h3>
+            <div class="skill-list">
+              <div class="skill-row"><span>Git / GitHub</span><span class="level level-mid">Intermediate</span></div>
+              <div class="skill-row"><span>VS Code</span><span class="level level-strong">Strong</span></div>
+              <div class="skill-row"><span>XAMPP / Laragon</span><span class="level level-strong">Strong</span></div>
+              <div class="skill-row"><span>AI-assisted coding</span><span class="level level-mid">Intermediate</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section class="section glass-section" id="projects">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">04 — Projects</span>
+          <h2>Selected work</h2>
+          <p class="section-sub">Real systems built to solve practical problems. Replace demo links with your live URLs or GitHub repos when ready.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="glass-card project-card project-featured">
+            <div class="project-preview preview-clinic">
+              <div class="mock-window">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-body">
+                  <div class="mock-nav">CarePoint</div>
+                  <div class="mock-title">Healthcare appointments<br>that fit your schedule</div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-type">Full-stack Web App</span>
+                <span class="project-year">2024–2025</span>
+              </div>
+              <h3>Doctor Appointment System</h3>
+              <p class="project-problem"><strong>Problem:</strong> Clinics and patients needed a simple way to book, manage, and track appointments without spreadsheets or phone-only workflows.</p>
+              <p><strong>Solution:</strong> A complete PHP + MySQL web application with patient registration, doctor schedules, booking flow, and an admin dashboard for oversight.</p>
+              <p><strong>My role:</strong> End-to-end design and development — database schema, backend logic, frontend UI, and testing.</p>
+              <ul class="project-features">
+                <li>Patient &amp; doctor management</li>
+                <li>Appointment booking &amp; status tracking</li>
+                <li>Admin dashboard &amp; basic reporting</li>
+                <li>Responsive interface for desktop use</li>
+              </ul>
+              <div class="project-tags">
+                <span>PHP</span><span>MySQL</span><span>HTML/CSS/JS</span><span>CRUD</span>
+              </div>
+              <p class="project-result"><strong>Outcome:</strong> A working system that demonstrates full-stack capability and real-world workflow thinking. <em>Replace with live demo / GitHub link.</em></p>
+              <div class="project-actions">
+                <a class="project-link" href="#contact">Request demo →</a>
+                <a class="project-link secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="glass-card project-card">
+            <div class="project-preview preview-mis">
+              <div class="mock-window">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-body dark">
+                  <div class="mock-nav">MIS Dashboard</div>
+                  <div class="mock-charts">
+                    <div class="chart-bar" style="--h:60%"></div>
+                    <div class="chart-bar" style="--h:85%"></div>
+                    <div class="chart-bar" style="--h:45%"></div>
+                    <div class="chart-bar" style="--h:70%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div class="project-meta">
+                <span class="project-type">Java Application</span>
+                <span class="project-year">2024–2025</span>
+              </div>
+              <h3>Management Information System</h3>
+              <p class="project-problem"><strong>Problem:</strong> Organizations need structured ways to store, query, and report on operational data for better decisions.</p>
+              <p><strong>Solution:</strong> A Java-based MIS with modules for data entry, retrieval, and reporting — focused on clarity and practical business logic.</p>
+              <p><strong>My role:</strong> Architecture, core logic, database integration, and user-facing flows.</p>
+              <ul class="project-features">
+                <li>Data management &amp; validation</li>
+                <li>Reporting modules</li>
+                <li>Inventory / record tracking concepts</li>
+                <li>Clear separation of concerns</li>
+              </ul>
+              <div class="project-tags">
+                <span>Java</span><span>Database</span><span>Desktop / Web</span>
+              </div>
+              <p class="project-result"><strong>Outcome:</strong> Demonstrates structured programming, data handling, and system design. <em>Add repo or demo when available.</em></p>
+              <div class="project-actions">
+                <a class="project-link" href="#contact">Request details →</a>
+                <a class="project-link secondary" href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section class="section glass-section" id="services">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">05 — Services</span>
+          <h2>How I can help</h2>
+          <p class="section-sub">Available for freelance, contract, or employment. Clear scope and communication from the start.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="glass-card service-card">
+            <div class="service-num">01</div>
+            <h3>Web Application Development</h3>
+            <p>Custom web apps with PHP, MySQL, HTML, CSS, and JavaScript — booking systems, admin panels, CRUD tools, and small business solutions.</p>
+            <ul>
+              <li>Requirements to working product</li>
+              <li>Database design &amp; backend logic</li>
+              <li>Clean, usable interfaces</li>
+            </ul>
+          </div>
+          <div class="glass-card service-card">
+            <div class="service-num">02</div>
+            <h3>IT Support &amp; Troubleshooting</h3>
+            <p>Hands-on support for hardware, software, and basic networking so users and small teams stay productive.</p>
+            <ul>
+              <li>Device &amp; OS issues</li>
+              <li>Software install &amp; updates</li>
+              <li>Connectivity &amp; user guidance</li>
+            </ul>
+          </div>
+          <div class="glass-card service-card">
+            <div class="service-num">03</div>
+            <h3>System Setup &amp; Documentation</h3>
+            <p>Setting up local development environments, basic infrastructure, and clear documentation so systems are maintainable.</p>
+            <ul>
+              <li>Dev stack configuration</li>
+              <li>Process documentation</li>
+              <li>Handover &amp; training notes</li>
+            </ul>
+          </div>
+          <div class="glass-card service-card">
+            <div class="service-num">04</div>
+            <h3>Hybrid Support + Development</h3>
+            <p>Ideal when you need someone who can both fix systems and improve them with code — a rare and practical combination.</p>
+            <ul>
+              <li>Support + small feature builds</li>
+              <li>Process automation ideas</li>
+              <li>Long-term reliability focus</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== IT SUPPORT ========== -->
+    <section class="section glass-section" id="support">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">06 — IT Support</span>
+          <h2>Keeping systems reliable</h2>
+        </div>
+        <div class="support-grid">
+          <div class="glass-card support-item">
+            <div class="support-icon">🖥️</div>
+            <h3>Hardware &amp; Devices</h3>
+            <p>Diagnosing and resolving issues with desktops, laptops, peripherals, and basic hardware upgrades. Methodical checks from power and cables to component isolation.</p>
+          </div>
+          <div class="glass-card support-item">
+            <div class="support-icon">🌐</div>
+            <h3>Networking</h3>
+            <p>Basic network setup, connectivity troubleshooting, and understanding of LAN principles so users stay connected and productive.</p>
+          </div>
+          <div class="glass-card support-item">
+            <div class="support-icon">🔒</div>
+            <h3>System Care &amp; Users</h3>
+            <p>Software installation, updates, security hygiene, and clear guidance for non-technical users — patience and clarity as standard practice.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ACHIEVEMENTS ========== -->
+    <section class="section glass-section" id="achievements">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">07 — Achievements</span>
+          <h2>Milestones &amp; growth</h2>
+        </div>
+        <div class="achievements-list">
+          <div class="glass-card achievement-item">
+            <span class="ach-year">2024–25</span>
+            <div>
+              <h3>Full-stack Doctor Appointment System delivered</h3>
+              <p>Designed and implemented a production-ready PHP/MySQL application covering patient records, scheduling, and admin features — end-to-end ownership from schema to UI.</p>
+            </div>
+          </div>
+          <div class="glass-card achievement-item">
+            <span class="ach-year">2024–25</span>
+            <div>
+              <h3>Java Management Information System</h3>
+              <p>Built a structured MIS demonstrating data handling, reporting logic, and practical business workflows in Java.</p>
+            </div>
+          </div>
+          <div class="glass-card achievement-item">
+            <span class="ach-year">Ongoing</span>
+            <div>
+              <h3>Cross-domain IT capability</h3>
+              <p>Actively combining software development with hands-on IT support knowledge — a bridge that helps both code and infrastructure stay useful in the real world.</p>
+            </div>
+          </div>
+          <div class="glass-card achievement-item">
+            <span class="ach-year">Continuous</span>
+            <div>
+              <h3>Public portfolio &amp; learning in the open</h3>
+              <p>Maintaining a professional portfolio and GitHub presence; expanding into React, Linux administration, and cloud basics while shipping practical work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="section glass-section" id="testimonials">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">08 — Testimonials</span>
+          <h2>What others say</h2>
+          <p class="section-sub">Replace these samples with real quotes from lecturers, clients, or colleagues when you have them.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <blockquote class="glass-card testimonial-card">
+            <p>“Nelson approaches problems methodically and explains technical issues in a way that non-technical people can follow. Reliable and patient.”</p>
+            <footer>
+              <strong>— Academic / Project supervisor</strong>
+              <span>Placeholder — replace with real name &amp; role</span>
+            </footer>
+          </blockquote>
+          <blockquote class="glass-card testimonial-card">
+            <p>“He delivered a working appointment system that matched our workflow needs. Clear communication throughout the project.”</p>
+            <footer>
+              <strong>— Project stakeholder</strong>
+              <span>Placeholder — replace with real name &amp; role</span>
+            </footer>
+          </blockquote>
+          <blockquote class="glass-card testimonial-card">
+            <p>“Combines coding skill with practical IT support thinking. That combination is harder to find than pure developers or pure support staff.”</p>
+            <footer>
+              <strong>— Peer / collaborator</strong>
+              <span>Placeholder — replace with real name &amp; role</span>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section glass-section" id="contact">
+      <div class="section-inner">
+        <div class="section-header">
+          <span class="section-kicker">09 — Contact</span>
+          <h2>Let’s work together</h2>
+          <p class="section-sub">Open to junior developer roles, IT support positions, internships, and freelance projects.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="glass-card contact-card">
+            <h3>Get in touch</h3>
+            <p>Whether you need a web application built, systems kept reliable, or someone who can do both — I’d be glad to hear from you.</p>
+            <div class="contact-links">
+              <a href="mailto:your.email@example.com" class="contact-link">
+                <span class="cl-icon">✉</span>
+                <span>
+                  <strong>Email</strong>
+                  <small>your.email@example.com</small>
+                </span>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="cl-icon">in</span>
+                <span>
+                  <strong>LinkedIn</strong>
+                  <small>Connect professionally</small>
+                </span>
+              </a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                <span class="cl-icon">⌘</span>
+                <span>
+                  <strong>GitHub</strong>
+                  <small>Code &amp; projects</small>
+                </span>
+              </a>
+            </div>
+            <p class="contact-note">Prefer a CV? Use the <strong>Download CV</strong> button in the sidebar, or ask me for the latest PDF.</p>
+          </div>
+
+          <form class="glass-card contact-form" id="contactForm">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required placeholder="Your full name" autocomplete="name">
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+            </label>
+            <label>
+              <span>Subject</span>
+              <select name="subject">
+                <option value="opportunity">Job / internship opportunity</option>
+                <option value="freelance">Freelance project</option>
+                <option value="support">IT support inquiry</option>
+                <option value="other">Other</option>
+              </select>
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" required placeholder="Tell me briefly about the role, project, or issue…"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-note">This form opens your email client. For production, connect it to Formspree, Netlify Forms, or your backend.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> Obicho Nelson. Built with care &amp; continuous learning.</p>
+      <p class="footer-meta">Last updated: October 2026</p>
+    </footer>
+  </main>
+
+  <button class="to-top" id="toTop" type="button" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
